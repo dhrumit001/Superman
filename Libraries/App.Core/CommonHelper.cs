@@ -1,4 +1,5 @@
-﻿using System;
+﻿using App.Core.Infrastructure;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Globalization;
@@ -335,6 +336,15 @@ namespace App.Core
 
             return fi.GetValue(target);
         }
+
+        #endregion
+
+        #region Properties
+
+        /// <summary>
+        /// Gets or sets the default file provider
+        /// </summary>
+        public static INopFileProvider DefaultFileProvider { get; set; }
 
         #endregion
 
