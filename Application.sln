@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Services", "Libraries\A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Web.Api", "Presentation\App.Web.Api\App.Web.Api.csproj", "{54C5037E-7089-4202-B992-66C62539BD1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Web.Framework", "Presentation\App.Web.Framework\App.Web.Framework.csproj", "{95621999-1092-4523-92E8-DB24FCBCB91D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Web.Framework", "Presentation\App.Web.Framework\App.Web.Framework.csproj", "{95621999-1092-4523-92E8-DB24FCBCB91D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Web", "Presentation\App.Web\App.Web.csproj", "{172FEE17-4FA1-4268-BF96-29C1D2917FC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{95621999-1092-4523-92E8-DB24FCBCB91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95621999-1092-4523-92E8-DB24FCBCB91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95621999-1092-4523-92E8-DB24FCBCB91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172FEE17-4FA1-4268-BF96-29C1D2917FC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172FEE17-4FA1-4268-BF96-29C1D2917FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172FEE17-4FA1-4268-BF96-29C1D2917FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172FEE17-4FA1-4268-BF96-29C1D2917FC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{CB77C366-3F05-483B-AE7C-E55403551838} = {DBD3634B-7394-460B-ACD8-884F213432DA}
 		{54C5037E-7089-4202-B992-66C62539BD1B} = {CB70A3C0-2BC2-4A7B-9819-CD7DFD508CD1}
 		{95621999-1092-4523-92E8-DB24FCBCB91D} = {CB70A3C0-2BC2-4A7B-9819-CD7DFD508CD1}
+		{172FEE17-4FA1-4268-BF96-29C1D2917FC9} = {CB70A3C0-2BC2-4A7B-9819-CD7DFD508CD1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {60D4E8B7-358A-431F-A1BF-88F79026CE60}

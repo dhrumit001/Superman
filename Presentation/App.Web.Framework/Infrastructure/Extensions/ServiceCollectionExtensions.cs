@@ -4,6 +4,7 @@ using App.Core.Data;
 using App.Core.Http;
 using App.Core.Infrastructure;
 using App.Data;
+using App.Services.Logging;
 using EasyCaching.Core;
 using EasyCaching.InMemory;
 using FluentValidation.AspNetCore;
